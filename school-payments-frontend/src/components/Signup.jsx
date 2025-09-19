@@ -14,7 +14,7 @@ function Signup({ setToken }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://evidronassignment-school-payment-backend.onrender.com/api/auth/signup', formData);
+      const response = await axios.post('https://assignment-evidron-school-payment-backend.onrender.com/api/auth/signup', formData);
       if (response.data.message === 'User created') {
         navigate('/login');
       }

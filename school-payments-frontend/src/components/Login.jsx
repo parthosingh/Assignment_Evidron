@@ -14,7 +14,7 @@ function Login({ setToken }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://evidronassignment-school-payment-backend.onrender.com/api/auth/login', formData);
+      const response = await axios.post('https://assignment-evidron-school-payment-backend.onrender.com/api/auth/login', formData);
       if (response.data.token) {
         localStorage.setItem('token', response.data.token);
         setToken(response.data.token);
