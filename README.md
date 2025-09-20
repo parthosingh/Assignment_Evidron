@@ -50,7 +50,7 @@ Build for production:
 npm run build
 
 
-Use the included Postman collection (if any) or Thunder Client to test API integrations.
+Use the included Postman collection for  API integrations.
 
 # API Integration
 The app integrates with the backend APIs:
