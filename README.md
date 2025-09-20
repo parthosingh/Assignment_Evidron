@@ -156,6 +156,7 @@ npm run build
 Use the included Postman collection for  API integrations.
 
 # API Integration
+```
 The app integrates with the backend APIs:
 
 GET /transactions: Fetches paginated transactions with filters (status, school_id, date).
@@ -225,6 +226,7 @@ Components: StatusCheckForm (form with Axios call).
 
 
 Real-time Visualization: Chart.js bar chart for transaction amounts by status (in Transactions Overview).
+```
 
 # Deployment
 
