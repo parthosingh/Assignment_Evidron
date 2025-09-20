@@ -76,7 +76,7 @@ School Payment Frontend
 A responsive React-based frontend for the School Payment and Dashboard application. It integrates with the backend APIs to display and manage transactions, including paginated lists, filters, and status checks.
 Table of Contents
 
-## ⚙️ Installation & Setup
+## ⚙️ Installation & Setup for Backend
 
 ### 🔹 1. Clone Repository
 ```bash
@@ -90,7 +90,7 @@ cd school-payment-backend
 npm install
 ```
 
-#### Create `.env` file inside `backend/`
+#### Create `.env` file inside `frontend/`
 ```env
 SALT_ROUNDS=No of Salt Rounds
 PORT=8080 (Local Host)
@@ -111,7 +111,7 @@ Backend runs on 👉 **https://assignment-evidron-school-payment-backend.onrende
 
 
 
-# Overview
+## Overview for frontend
 This frontend app provides a user-friendly interface for viewing transactions, filtering by school or status, and checking payment statuses. Built with React, Tailwind CSS, Axios for API calls, and React Router for navigation
 The app fetches data from the backend at https://assignment-evidron-school-payment-backend.onrender.com
 
@@ -123,32 +123,27 @@ Date-wise transaction filtering.
 Transaction details page by school.
 Status check form for custom_order_id.
 
-# Setup Instructions
-
-Node.js (v18+)
-npm or yarn
-Backend server running on https://assignment-evidron-school-payment-backend.onrender.com
-Installation
+# Setup frontend
 
 Clone the repository:
+```bash
 git clone https://github.com/parthosingh/Assignment_Evidron.git
 cd school-payment-frontend
+```
 
-
-Install dependencies:
+# Install dependencies:
 npm install
 
 
-Set up environment variables:
+#### Create `.env` file inside `backend/`
+```env
+ VITE_BACKEND_URL=https://assignment-evidron-school-payment-backend.onrender.com/api
+```
 
-Create a .env file in the root: VITE_BACKEND_URL=https://assignment-evidron-school-payment-backend.onrender.com/api
-
-
-Adjust REACT_APP_API_URL for production.
-
-
-Start the development server:
-npm start
+#### Run frontend 
+```bash
+npm run dev
+```
 
 
 The app will run on https://assignment-evidron-mw7l.vercel.app/
@@ -166,6 +161,7 @@ The app integrates with the backend APIs:
 GET /transactions: Fetches paginated transactions with filters (status, school_id, date).
 GET /transactions/school/:schoolId: Fetches transactions for a school.
 GET /transaction-status/:custom_order_id: Checks status by order ID.
+
 Axios is used for all calls, with error handling and loading states.
 
 Example API call in code (from src/services/api.js):
