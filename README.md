@@ -43,7 +43,7 @@ Start the development server:
 npm start
 
 
-The app will run on https://payment-eight-zeta.vercel.app
+The app will run on https://assignment-evidron-mw7l.vercel.app/
 
 
 Build for production:
