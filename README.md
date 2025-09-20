@@ -137,7 +137,7 @@ Deploy:vercel
 Follow prompts: Link to GitHub, set root directory to ./, build command npm run build, output directory build/.
 
 
-The app will be live at https://payment-eight-zeta.vercel.app
+The app will be live at https://assignment-evidron-mw7l.vercel.app/
 
 
 This project was built for the Software Developer Assessment. Backend repo: school-payment-backend.
