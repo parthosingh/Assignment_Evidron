@@ -138,3 +138,6 @@ The app will be live at https://payment-eight-zeta.vercel.app
 
 
 This project was built for the Software Developer Assessment. Backend repo: school-payment-backend.
+
+
+![image alt](https://github.com/parthosingh/Assignment_Evidron/blob/8fb0f7f69201292061d29ee2b57a61750135867b/Screenshot%202025-09-20%20164552.png)
