@@ -227,24 +227,16 @@ Components: StatusCheckForm (form with Axios call).
 Real-time Visualization: Chart.js bar chart for transaction amounts by status (in Transactions Overview).
 
 # Deployment
-Vercel (Recommended)
-
-Install Vercel CLI:npm i -g vercel
-
 
 Login:vercel login
 
-
-Deploy:vercel
-
-
 Follow prompts: Link to GitHub, set root directory to ./, build command npm run build, output directory build/.
 
-
+Deploy:vercel
 The app will be live at https://assignment-evidron-mw7l.vercel.app/
 
 
-This project was built for the Software Developer Assessment. Backend repo: school-payment-backend.
+This project was built for the Software Developer Assessment
 
 
 ![image alt](https://github.com/parthosingh/Assignment_Evidron/blob/8fb0f7f69201292061d29ee2b57a61750135867b/Screenshot%202025-09-20%20164552.png)
