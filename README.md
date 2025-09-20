@@ -29,6 +29,51 @@ Got it! Since you've built your project using **Node.js, Express, and MongoDB At
 - ✅ Column sorting by clicking headers (e.g., payment_time in asc/desc order)
 - ✅ Fully responsive UI styled with Tailwind CSS
 
+--
+
+## Project Structure
+
+Assignment_Evidron/
+│
+├── school-payment-backend/              # Backend Service
+│   ├── config/           # DB connection
+│   │   └── db.js        # MongoDB connection logic
+│   ├── middleware/       # JWT Auth
+│   │   ├── auth.middleware.js # JWT authentication middleware
+│   ├── models/           # Mongoose Schemas
+│   │   ├── order.model.js    # Order Schema
+│   │   ├── orderstatus.model.js # Order Status Schema
+│   │   ├── user.model.js     # User Schema
+│   │   └── webhooklog.model.js # Webhook Log Schema
+│   ├── routes/                # API Routes
+│   │   ├── auth.routes.js     # Signup, login routes
+│   │   └── payment.routes.js  # Create-payment, transactions, status routes
+│   │   └── webhook.routes.js  # Webhook route
+│   ├── index.js        # Main entry point
+│   └── .env             # Env variables (SALT_ROUNDS, JWT_SECRET, PORT, API_KEY, PG_KEY, SCHOOL_ID, MONGO_URL)
+│
+├── school-payments-frontend/            # React Frontend
+│   ├── src/
+│   │   ├── components/   # Navbar, Sidebar, Table, Cards
+│   │   │   └── Navbar.jsx       # Navigation bar
+│   │   │   └── Routes.jsx      # Routes bar
+│   │   │   └── TransactionTable.jsx # Table with sorting/pagination
+│   │   │   └── Login.jsx         # Login form
+|   |   |   └── Signup.jsx        # Signup form
+|   |   |   └── StatusModal.jsx   # Status check modal
+│   │   ├── pages/        
+│   │   │   └── TransactionsDetailsBySchool.jsx    # School-specific transactions
+│   │   │   └── TransactionsOverview.jsx   # Transactions list   
+│   │   │   └── TransactionStatus.jsx  # Status check page
+|   |   ├── services/
+|   |   |   └── api.js  # Axios API calls
+│   │   ├── App.jsx       # Routes
+│   │   └── main.jsx      # React Entry
+│   └── tailwind.config.js # Tailwind setup
+
+
+
+
 # School Payments & Dashboard Application
 
 Deployment Link :-> 
