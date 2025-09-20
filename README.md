@@ -11,7 +11,7 @@
 
 ---
 
-Got it! Since you've built your project using **Node.js, Express, and MongoDB Atlas** for the backend and **React + TailwindCSS** for the frontend, I’ll provide a tailored feature set similar to the sample you shared, aligning with your tech stack. I’ll focus on generating a comparable feature list without coding, as requested, and ensure it reflects a practical and relevant set of features for your project.
+I have build a school-payments dashboard application usibg **Node.js, Express, and MongoDB Atlas** for the backend and **React + TailwindCSS** for the frontend, I’ll provide a tailored feature set similar to the sample you shared, aligning with your tech stack. I’ll focus on generating a comparable feature list without coding, as requested, and ensure it reflects a practical and relevant set of features for your project.
 
 ## 🚀 Features
 ### 🔒 Backend (Node.js, Express, MongoDB Atlas)
