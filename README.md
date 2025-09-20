@@ -72,16 +72,43 @@ Assignment_Evidron/
 │   │   └── main.jsx      # React Entry
 │   └── tailwind.config.js # Tailwind setup
 ```
-
-
-
-# School Payments & Dashboard Application
-
-Deployment Link :-> 
-
 School Payment Frontend
 A responsive React-based frontend for the School Payment and Dashboard application. It integrates with the backend APIs to display and manage transactions, including paginated lists, filters, and status checks.
 Table of Contents
+
+## ⚙️ Installation & Setup
+
+### 🔹 1. Clone Repository
+```bash
+git clone https://github.com/parthosingh/Assignment_Evidron.git
+cd Assignment_Evidron
+```
+
+### 🔹 2. Setup Backend
+```bash
+cd school-payment-backend
+npm install
+```
+
+#### Create `.env` file inside `backend/`
+```env
+SALT_ROUNDS=No of Salt Rounds
+PORT=8080 (Local Host)
+MONGO_URI=your-mongodb-atlas-uri
+JWT_SECRET=your-jwt-secret
+PG_KEY=edvtest01
+PAYMENT_API_KEY=eyJhbGciOiJIUzI1NiIs...
+SCHOOL_ID=65b0e6293e9f76a9694d84b4
+```
+
+#### Run Backend
+```bash
+npm run dev
+```
+Backend runs on 👉 **https://assignment-evidron-school-payment-backend.onrender.com**
+
+
+
 
 
 # Overview
