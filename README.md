@@ -33,6 +33,7 @@ Got it! Since you've built your project using **Node.js, Express, and MongoDB At
 
 ## Project Structure
 
+```
 Assignment_Evidron/
 │
 ├── school-payment-backend/              # Backend Service
@@ -70,7 +71,7 @@ Assignment_Evidron/
 │   │   ├── App.jsx       # Routes
 │   │   └── main.jsx      # React Entry
 │   └── tailwind.config.js # Tailwind setup
-
+```
 
 
 
