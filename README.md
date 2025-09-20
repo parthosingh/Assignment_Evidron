@@ -1,5 +1,36 @@
 # School Payments & Dashboard Application
 
+## Deployment Link of school-payments-frontend:-> https://assignment-evidron-mw7l.vercel.app/
+## Deployment Link of school-payment-backend :-> https://assignment-evidron-school-payment-backend.onrender.com
+
+# A MERN-based School Payment & Dashboard Application featuring secure JWT authentication, Payment Gateway Integration, Webhook support, and a modern React frontend. This project is divided into two parts:
+
+- **Backend (Node.js + Express + MongoDB)** → Running at **https://assignment-evidron-school-payment-backend.onrender.com**
+
+- **Frontend (React + Vite + TailwindCSS)** → Running at **https://assignment-evidron-mw7l.vercel.app/**
+
+---
+
+Got it! Since you've built your project using **Node.js, Express, and MongoDB Atlas** for the backend and **React + TailwindCSS** for the frontend, I’ll provide a tailored feature set similar to the sample you shared, aligning with your tech stack. I’ll focus on generating a comparable feature list without coding, as requested, and ensure it reflects a practical and relevant set of features for your project.
+
+## 🚀 Features
+### 🔒 Backend (Node.js, Express, MongoDB Atlas)
+- ✅ User Authentication with JWT (Sign-up & Login)
+- ✅ Payment Integration API (`/api/payments/create-payment`) with third-party gateways
+- ✅ Webhook Listener (`/api/webhook`, POST) for real-time payment status updates
+- ✅ Transactions API with Search, Filtering, and Pagination
+- ✅ Environment variable management using `.env` for secure configuration
+- ✅ Comprehensive error handling, input validation, and request logging
+### 💻 Frontend (React + Vite + TailwindCSS)
+- ✅ Dynamic Dashboard with paginated, searchable, and filterable transaction history (columns: collect_id, school_id, gateway, order_amount, transaction_amount, status, custom_order_id)
+- ✅ Date-wise transaction filtering
+- ✅ Transaction Status Tracker (search by custom_order_id)
+- ✅ URL parameter persistence for sorting and filtering states
+- ✅ Column sorting by clicking headers (e.g., payment_time in asc/desc order)
+- ✅ Fully responsive UI styled with Tailwind CSS
+
+# School Payments & Dashboard Application
+
 Deployment Link :-> 
 
 School Payment Frontend
