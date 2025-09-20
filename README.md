@@ -86,8 +86,11 @@ export const getTransactions = async (params, token) => {
 Description: Displays a searchable, paginated table of all transactions.
 Functionality:
 Columns: collect_id, school_id, gateway, order_amount, transaction_amount, status, custom_order_id.
+
 Filters: Multi-select for status (Success, Pending, Failed) and school IDs.
-Sorting: Click on Payment time will sort transactions in ascending and descending order (newest to oldest).
+
+Sorting: Click on Payment time will sort transactions in ascending and descending order.
+
 Pagination: Previous/Next buttons with page numbers.
 
 
