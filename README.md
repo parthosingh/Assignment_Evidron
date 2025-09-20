@@ -135,7 +135,7 @@ cd school-payment-frontend
 npm install
 
 
-#### Create `.env` file inside `backend/`
+#### Create `.env` file inside `frontend/`
 ```env
  VITE_BACKEND_URL=https://assignment-evidron-school-payment-backend.onrender.com/api
 ```
