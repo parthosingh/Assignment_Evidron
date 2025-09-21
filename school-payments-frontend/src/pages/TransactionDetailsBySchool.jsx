@@ -24,7 +24,7 @@ function TransactionDetailsBySchool() {
 
     try {
       const params = { page, limit, sort, order };
-      const data = await getTransactionsBySchool(schoolId, params); // Pass schoolId and params correctly
+      const data = await getTransactionsBySchool(schoolId, params); 
       console.log("API response:", data);
 
       let txnData = [];
